@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- ngView: -->
+        <div ng-view="" class="ng-scope">
+            <div class="row ng-scope">
+                <h1>Competitor Comparison</h1>
+                <div class="legend"><span class="label">Online Presence Ranking -</span><span class="badge rank1">1</span><span class="badge rank2">2</span><span class="badge rank3">3</span><span class="badge rank4">4</span><span class="badge rank5">5</span><span class="badge rank6">6</span></div>
+                <section id="mobile-table" ng-controller="MainCtrl" class="ng-scope">
+                    <table class="table-bordered table-striped table-condensed">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="competitor-column">Competitor X</th>
+                                <th class="competitor-column customer">The Customer</th>
+                                <th class="competitor-column">Random Business LTD</th>
+                                <th class="competitor-column">Industry Etc</th>
+                                <th class="competitor-column">Another Competitor</th>
+                                <th class="competitor-column">The Business Co.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><span class="badge">Shop Fronts</span></th>
+                                <td data-title="Competitor X"><span class="badge rank3">3</span></td>
+                                <td data-title="The Customer" class="customer"><span class="badge rank1">1</span></td>
+                                <td data-title="Random Business LTD"><span class="badge rank6">6</span></td>
+                                <td data-title="Industry Etc"><span class="badge rank4">4</span></td>
+                                <td data-title="Another Competitor"><span class="badge rank2">2</span></td>
+                                <td data-title="The Business Co."><span class="badge rank5">5</span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="badge">Website Speed</span></th>
+                                <td data-title="Competitor X"><span class="badge rank1">1</span></td>
+                                <td data-title="The Customer" class="customer"><span class="badge rank1">1</span></td>
+                                <td data-title="Random Business LTD"><span class="badge rank3">3</span></td>
+                                <td data-title="Industry Etc"><span class="badge rank2">2</span></td>
+                                <td data-title="Another Competitor"><span class="badge rank4">4</span></td>
+                                <td data-title="The Business Co."><span class="badge rank1">1</span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="badge">Mobile Friendly</span></th>
+                                <td data-title="Competitor X"><span class="badge rank1">1</span></td>
+                                <td data-title="The Customer" class="customer"><span class="badge rank2">2</span></td>
+                                <td data-title="Random Business LTD"><span class="badge rank5">5</span></td>
+                                <td data-title="Industry Etc"><span class="badge rank3">3</span></td>
+                                <td data-title="Another Competitor"><span class="badge rank4">4</span></td>
+                                <td data-title="The Business Co."><span class="badge rank6">6</span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="badge">Findability</span></th>
+                                <td data-title="Competitor X"><span class="badge rank5">5</span></td>
+                                <td data-title="The Customer" class="customer"><span class="badge rank2">2</span></td>
+                                <td data-title="Random Business LTD"><span class="badge rank4">4</span></td>
+                                <td data-title="Industry Etc"><span class="badge rank1">1</span></td>
+                                <td data-title="Another Competitor"><span class="badge rank3">3</span></td>
+                                <td data-title="The Business Co."><span class="badge rank6">6</span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="badge">Social Engagement</span></th>
+                                <td data-title="Competitor X"><span class="badge rank4">4</span></td>
+                                <td data-title="The Customer" class="customer"><span class="badge rank1">1</span></td>
+                                <td data-title="Random Business LTD"><span class="badge rank5">5</span></td>
+                                <td data-title="Industry Etc"><span class="badge rank6">6</span></td>
+                                <td data-title="Another Competitor"><span class="badge rank3">3</span></td>
+                                <td data-title="The Business Co."><span class="badge rank2">2</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
