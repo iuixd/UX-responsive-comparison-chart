@@ -87,16 +87,16 @@ h1 {
 .legend {
     max-width: 75%;
     margin: 0 auto;
-    text-align: right;
+    text-align: center;
+}
+
+.legend .badge {
+    margin: 20px 4px 20px 4px;
 }
 
 .legend .label {
     font-size: 85%;
     color: rgba(0, 0, 0, 0.5);
-}
-
-.legend .badge {
-    margin: 20px 4px;
 }
 
 .badge.rank1 {
@@ -129,6 +129,12 @@ h1 {
     }
     h1 {
         font-size: 2rem;
+    }
+    .legend .label {
+        font-size: 65%;
+    }
+    .legend .badge {
+        margin: 10px 2px;
     }
     #mobile-table table,
     #mobile-table thead,
@@ -163,11 +169,12 @@ h1 {
     #mobile-table td:before {
         position: absolute;
         top: 6px;
-        left: 6px;
+        left: 13px;
         width: 45%;
         padding-right: 10px;
         white-space: nowrap;
         text-align: left;
+        font-size: 85%;
         font-weight: bold;
     }
     #mobile-table td:before {
@@ -177,7 +184,9 @@ h1 {
     #mobile-table td .badge {
         margin: 6px 0 6px 85%;
         padding: 0.2rem 0;
-        width: 30px;
+        width: 20px;
+        height: 20px;
+        line-height: 15px;
     }
     #mobile-table th .badge {
         background: #CCC;
